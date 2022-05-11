@@ -1,0 +1,82 @@
+body {
+	background-color: aliceblue;
+	padding: 2em;
+	font-family: 'Raleway', 'Source Sans Pro', 'Arial';
+}
+.container {
+	width: 50%;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: white;
+	border-radius: 1em
+}
+#selectcolor {
+	width: calc(100% - 160px);
+	padding: 12px 20px;
+	margin: 0 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px 0 0 4px;
+	box-sizing: border-box;
+	height: 50px;
+}
+input#send {
+	background-color: skyblue;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 0 4px 4px 0;
+	position: relative;
+	left: -4px;
+	height: 50px;
+	width: 150px;
+}
+input#send:hover {
+	background-color: cadetblue;
+}
+input#send:disabled {
+	background-color: gainsboro;
+}
+.colordiv {
+	padding-top: 25%;
+	border-radius: 5%;
+}
+.colordiv#red {
+	background-color: red;
+}
+.colordiv#green {
+	background-color: green;
+}
+.colordiv#blue {
+	background-color: blue;
+}
+.colordiv#cyan {
+	background-color: cyan;
+}
+.colordiv#magenta {
+	background-color: magenta;
+}
+.colordiv#yellow {
+	background-color: yellow;
+}
+.colordiv#white {
+	background-color: white;
+}
+.colordiv#black {
+	background-color: black;
+}
+.colordiv#gray {
+	background-color: gray;
+}
+table#resultstable {
+	width: 100%;
+}
+#valuerow {
+	font-weight: bold;
+	text-align: center;
+}
